@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-codex/
+venv/
+env/
+
+# Local tooling
+.agents/
+.codex/
+.ipynb_checkpoints/
+
+# Datasets and source papers
+Dataset NASA CMAPPS/
+paper_extract.txt
+*.pdf
+
+# Experiment outputs
+results/runs/
+results/*.pt
+results/**/checkpoint.pt
+
+# Keep lightweight summary CSVs if you choose to commit them.
+!results/README.txt
+!results/metrics.csv
+!results/metrics_clean.csv
+!results/metrics_clean_updated.csv
+!results/comparison_fd001.csv
+!results/comparison_fd001_updated.csv
+!results/comparison_full.csv
+!results/comparison_full_updated.csv
+!results/rmse_pivot_full.csv
+!results/rmse_pivot_full_updated.csv
+!results/leaderboard_fd001.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
