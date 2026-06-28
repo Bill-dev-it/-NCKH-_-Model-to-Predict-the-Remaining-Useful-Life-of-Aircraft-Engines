@@ -42,3 +42,10 @@ results/**/checkpoint.pt
 Thumbs.db
 *.swp
 *.swo
+
+# Legacy result summaries
+results/comparison_fd001.csv
+results/comparison_full.csv
+results/metrics.csv
+results/metrics_clean.csv
+results/rmse_pivot_full.csv
