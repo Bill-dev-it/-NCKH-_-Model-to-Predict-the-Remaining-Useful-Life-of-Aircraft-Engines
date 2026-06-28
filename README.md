@@ -1,4 +1,3 @@
-```markdown
 # Reproducing BiLSTM-Attn on NASA C-MAPSS
 
 This project reproduces the experimental pipeline described in:
@@ -193,4 +192,3 @@ The reproduced results may differ from the paper due to:
 - paper code not being publicly available
 
 Therefore, this repository should be treated as a reproducibility study and an open reconstruction of the described methodology, not an exact reproduction of the authors' private implementation.
-```
